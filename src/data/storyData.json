@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "timestamp": 1709089876581,
+        "title": "M001111",
+        "synopsis": "Patty Murray",
+        "content": "WA",
+        "views": 10,
+        "writtenby": "user12345"
+    },
+    {
+        "id": 2,
+        "timestamp": 1709088876581,
+        "title": "story 1",
+        "synopsis": "test 1",
+        "content": "WasdfjlhbweahjklfbqweuiloA",
+        "views": 5,
+        "writtenby": "user12345"
+    },
+    {
+        "id": 3,
+        "timestamp": 1709088856581,
+        "title": "Story 2",
+        "synopsis": "this is test 2",
+        "content": "what da heck quack",
+        "views": 69,
+        "writtenby": "user12345"
+    },
+    {
+        "id": 4,
+        "timestamp": 1709088856581,
+        "title": "Story asdas2",
+        "synopsis": "this isasda test 2",
+        "content": "what da hasdaseck quack",
+        "views": 691,
+        "writtenby": "user12345"
+    }
+]

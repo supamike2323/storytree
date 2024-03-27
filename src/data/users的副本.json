@@ -1,0 +1,83 @@
+{
+    "articles": {
+        "1": {
+            "timestamp": 1709089876581,
+            "title": "M001111",
+            "synopsis": "Patty Murray",
+            "content": "WA",
+            "views": 10,
+            "writtenby": "user12345",
+            "userDetails": {
+                "img": "img/user.png",
+                "name": "exampleUser",
+                "age": "23",
+                "email": "user@example.com",
+                "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+                "avatarUrl": "https://example.com/path/to/avatar.jpg",
+                "registrationDate": 1709088856581
+            }
+        },
+        "2": {
+            "timestamp": 1709088876581,
+            "title": "story 1",
+            "synopsis": "test 1",
+            "content": "WasdfjlhbweahjklfbqweuiloA",
+            "views": 5,
+            "writtenby": "user12345",
+            "userDetails": {
+                "img": "img/user.png",
+                "name": "exampleUser",
+                "age": "23",
+                "email": "user@example.com",
+                "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+                "avatarUrl": "https://example.com/path/to/avatar.jpg",
+                "registrationDate": 1709088856581
+            }
+        },
+        "3": {
+            "timestamp": 1709088856581,
+            "title": "Story 2",
+            "synopsis": "this is test 2",
+            "content": "what da heck quack",
+            "views": 69,
+            "writtenby": "user12345",
+            "userDetails": {
+                "img": "img/user.png",
+                "name": "exampleUser",
+                "age": "23",
+                "email": "user@example.com",
+                "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+                "avatarUrl": "https://example.com/path/to/avatar.jpg",
+                "registrationDate": 1709088856581
+            }
+        },
+        "4": {
+            "timestamp": 1709088856581,
+            "title": "Story asdas2",
+            "synopsis": "this isasda test 2",
+            "content": "what da hasdaseck quack",
+            "views": 691,
+            "writtenby": "user12345",
+            "userDetails": {
+                "img": "img/user.png",
+                "name": "exampleUser",
+                "age": "23",
+                "email": "user@example.com",
+                "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+                "avatarUrl": "https://example.com/path/to/avatar.jpg",
+                "registrationDate": 1709088856581
+            }
+        }
+    },
+    "users": {
+        "user12345": {
+            "img": "img/user.png",
+            "name": null,
+            "age": "23",
+            "email": "user@example.com",
+            "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+            "avatarUrl": "https://example.com/path/to/avatar.jpg",
+            "registrationDate": 1709088856581
+        }
+    }
+}

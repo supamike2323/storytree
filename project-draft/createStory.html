@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ainsley Lai, Katherine Guo, Mike Deng, Tyler Vuu">
+    <meta name="description" content="Story creation and publishing page">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/MainStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette&display=swap">
+    <link rel="icon" href="img/storytree.ico" type="image/x-icon">
+    <title>Group 10 Writing Story Space</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="img/storytree.png" alt="Storytree Logo"> </li>
+            <li>
+                <h2>Create a Story</h2>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img class="smallimage" src="img/Home.png" alt="Home" aria-label="Home Icon">
+                </a>
+            </li>
+            <li>
+                <a href="Browse.html">
+                    <img class="smallimage" src="img/open book.png" alt="Browse" aria-label="Browse Icon">
+                </a>
+            </li>
+            <li>
+                <a href="createStory.html">
+                    <img class="smallimage" src="img/Create.png" alt="Create" aria-label="Create Icon">
+                </a>
+            </li>
+            <li>
+                <a href="Account.html">
+                    <img class="smallimage" src="img/user.png" alt="Account" aria-label="Account Icon">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Write Your Story</h2>
+
+        <form action="/submit-story" method="POST">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="storyTitle" name="title"
+                    placeholder="Enter the title of your story here...">
+            </div>
+
+            <div class="mb-3">
+                <textarea class="textbox" id="storyContent" name="content" rows="10"
+                    placeholder="Start typing your story here..."></textarea>
+            </div>
+
+            <div class="button-container">
+                <button type="button" class="left-button btn btn-warning btn-rounded" data-mdb-ripple-init>Save
+                    Story</button>
+                <button type="button" class="right-button btn btn-warning btn-rounded" data-mdb-ripple-init>Publish
+                    Story</button>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <p>Contact us:<br><a href="mailto:email@uw.edu"><span class="material-icons"></span> email@uw.edu</a></p>
+    <p><a href="tel:555-123-4567"><span class="material-icons"></span> 555-123-4567</a></p>
+    <p>&copy; Storytree 2024</p>
+</footer>
+
+</html>

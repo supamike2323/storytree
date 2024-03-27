@@ -1,0 +1,193 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courgette', sans-serif;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: beige;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav {
+  color: black;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 50px;
+  vertical-align: middle;
+}
+
+nav li.title {
+  font-size: 48px;
+  font: Helvetica;
+
+}
+nav img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+nav li img.smallimage {
+  height: 50px;
+  width: 50px;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.main-body {
+  background-color: #FFF8A7;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #f3dc72;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: #f3dc72;
+}
+
+.btn-primary:hover,
+.btn-info:hover {
+  background-color: #7A784B;
+}
+
+.account-card {
+  border: 6px solid #7A784B;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.details-box {
+  width: 300px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.details-label,
+.details-value {
+  flex-basis: 48%;
+}
+
+@media screen and (max-width: 768px) {
+  .details-box {
+    width: 100%;
+  }
+
+  .details-label,
+  .details-value {
+    flex-basis: 100%;
+  }
+}
+
+footer {
+  color: white;
+  background-color: #3e1305;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.25;
+}
+
+footer p:last-child {
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 769px) {
+  nav li {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  nav img {
+    height: 100px;
+    width: 100px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .card {
+    border: 6px solid #7A784B;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+
+  .profile-box img {
+    width: 100px;
+    height: 100px;
+  }
+}

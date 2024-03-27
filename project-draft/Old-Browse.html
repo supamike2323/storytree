@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ainsley Lai, Katherine Guo, Mike Deng, Tyler Vuu">
+    <meta name="description" content="Project Proposal for group 10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Group 10 Storytree Browse</title>
+    <link rel="icon" href="img/storytree.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette&display=swap">
+    <link rel="stylesheet" href="css/Browse-Old-Version.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="img/storytree.png" alt="Storytree Logo"></li>
+            <li>
+                <a href="index.html">
+                    <img class="smallimage" src="img/Home.png" alt="Home">
+                </a>
+            </li>
+            <li>
+                <a href="Browse.html">
+                    <img class="smallimage" src="img/open book.png" alt="Browse">
+                </a>
+            </li>
+            <li>
+                <a href="createStory.html">
+                    <img class="smallimage" src="img/Create.png" alt="Create">
+                </a>
+            </li>
+            <li>
+                <a href="Account.html">
+                    <img class="smallimage" src="img/user.png" alt="Account">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="available-stories">
+            <h1>Available Stories</h1>
+            <div class="filter-flexbox-container">
+                <a class="cta" href="contact.html"><button>Top Rated</button></a>
+                <a class="cta" href="contact.html"><button>Trending</button></a>
+                <a class="cta" href="contact.html"><button>Recent</button></a>
+
+            </div>
+            <div class="search-bar">
+                <form action="/search" method="get" class="search-form">
+                    <input type="text" placeholder="Search stories..." name="q" class="search-input"
+                        aria-label="Search stories">
+                    <select name="search-type" class="search-type" aria-label="Search by">
+                        <option value="title">By Title</option>
+                        <option value="content">By Content</option>
+                    </select>
+
+                    <button type="submit" class="search-button" aria-label="Search">
+                        <img class="search-icon" src="img/magnifying glass.png" alt="Search">
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="flexbox-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum.Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Animi, laborum.</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Odio praesentium cum nemo nesciunt architecto, quam voluptate porro inventore.</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Dignissimos consequuntur maxime harum debitis ratione, culpa iure pariatur quaerat?</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Odit id earum commodi tempora voluptatum mollitia dolorum, perspiciatis nulla!</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum.Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Animi, laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Animi, laborum.</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Doloremque commodi unde eaque! Et natus dolorum corrupti ut numquam.</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Odio praesentium cum nemo nesciunt architecto, quam voluptate porro inventore.</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Dignissimos consequuntur maxime harum debitis ratione, culpa iure pariatur quaerat?</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <h3>Title</h3>
+                    <p>Odit id earum commodi tempora voluptatum mollitia dolorum, perspiciatis nulla!</p>
+                    <div class="view-count">Views: <span id="viewCount1">0</span></div>
+                    <button class="branch-button" aria-label="Branch this story">Branch</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us:<br><a href="mailto:email@uw.edu"><span class="material-icons"></span> email@uw.edu</a></p>
+        <p><a href="tel:555-123-4567"><span class="material-icons"></span> 555-123-4567</a></p>
+        <p>&copy; Storytree 2024</p>
+    </footer>
+</body>
+
+</html>

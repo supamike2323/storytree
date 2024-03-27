@@ -1,0 +1,24 @@
+[
+    {
+        "users": {
+            "null": {
+                "img": null,
+                "name": null,
+                "age": null,
+                "email": null,
+                "bio": null,
+                "avatarUrl": null,
+                "registrationDate": null
+            },
+            "user12345": {
+                "img": "img/user.png",
+                "name": "exampleUser",
+                "age": "23",
+                "email": "user@example.com",
+                "bio": "Enthusiastic writer and reader. Loves exploring new genres and sharing stories.",
+                "avatarUrl": "https://example.com/path/to/avatar.jpg",
+                "registrationDate": 1709088856581
+            }
+        }
+    }
+]
